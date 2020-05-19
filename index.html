@@ -3,8 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Monstr</title>
-    <!-- <script src='js/index.js'></script> -->
-    <script src='js/demo.js'></script>
+    <script src='js/index.js'></script>
+    <!-- <script src='js/demo.js'></script> -->
+
+    <style>
+
+      #monster-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+      #monster-container > * {
+        box-sizing: border-box;
+        margin: 1rem;
+        padding: .5rem;
+        flex-basis: calc(20% - 2rem);
+        background: #f7f7f7;
+        box-shadow: 2px 6px 8px rgba(0,0,0,.2);
+      }
+
+  </style>
   </head>
   <body>
     <h1>Monstr Inc.</h1>
